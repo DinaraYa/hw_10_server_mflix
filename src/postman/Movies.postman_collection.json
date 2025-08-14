@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "18bb0dca-e3f1-4fb7-9aff-8ea72c1a1bd3",
+		"name": "Movies",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46848158",
+		"_collection_link": "https://java-27-30-7343.postman.co/workspace/dinara~3cef8b3e-6c65-4b10-b8e2-f0803ad8c9c2/collection/46848158-18bb0dca-e3f1-4fb7-9aff-8ea72c1a1bd3?action=share&source=collection_link&creator=46848158"
+	},
+	"item": [
+		{
+			"name": "getBooksByMovies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3177/api/movie/genres",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3177",
+					"path": [
+						"api",
+						"movie",
+						"genres"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMoviesByLanguage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3177/api/movie/language",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3177",
+					"path": [
+						"api",
+						"movie",
+						"language"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMoviesRates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3177/api/movie/rates",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3177",
+					"path": [
+						"api",
+						"movie",
+						"rates"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
